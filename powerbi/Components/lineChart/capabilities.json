@@ -1,0 +1,53 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Category",
+      "name": "category",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Y Axis",
+      "name": "measure",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Grouping with",
+      "name": "grouping",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "X Axis",
+      "name": "measure2",
+      "kind": "Grouping"
+    }
+  ],
+  "objects": {},
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "category"
+          }
+        },
+        "values": {
+          "group": {
+            "by": "grouping",
+            "select": [
+              {
+                "bind": {
+                  "to": "measure"
+                }
+              },
+              {
+                "bind": {
+                  "to": "measure2"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

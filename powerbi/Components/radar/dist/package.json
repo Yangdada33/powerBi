@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"123123","email":"12312@qq.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/circleCard0A08809EFC4B4CE0B5E2983F51375F18.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"circleCard","displayName":"CircleCard","guid":"circleCard0A08809EFC4B4CE0B5E2983F51375F18","visualClassName":"Visual","version":"1.0.0","description":"23123","supportUrl":"12312@qq.com","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
